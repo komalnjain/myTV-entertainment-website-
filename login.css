@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif;
+    background-image: url("path/to/background-image.jpg"); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background:  #0c111b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    color: #fff;
+}
+
+.form-wrapper {
+    text-align: center;
+}
+
+.logo {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #f0f0f0; /* Adjust logo color based on background image */
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Adjust border color based on background image */
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.3); /* Adjust input background color based on background image */
+    color: #fff;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50; /* Adjust button color based on your theme */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+#togglePassword {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #ccc;
+}
